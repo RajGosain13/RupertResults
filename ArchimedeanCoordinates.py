@@ -191,7 +191,7 @@ def Rhombicosidodecahedron():
     RhombicosidodechedronCoordinates = RhombicosidodechedronCoordinates[1:,::]
     return RhombicosidodechedronCoordinates
 
-def TruncatedIcosidodechedron():
+def TruncatedIcosidodecahedron():
     tidlist1 = SignChange(1 / golden, 1 / golden, 3 + golden)
     tidlist2 = SignChange(2 / golden, golden, 1 + 2 * golden)
     tidlist3 = SignChange(1 / golden, golden ** 2, 3 * golden - 1)
